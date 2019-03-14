@@ -44,11 +44,11 @@ public class FrequentItemSetsMiningFinal {
 	BufferedWriter bufferedWriter;
 	
 	void createTransactions(List<String> transaction) {
-		Set<Integer> set = new HashSet<Integer>();
-		for (String item : transaction) {
-			set.add(Integer.valueOf(item));
-		}
-		allTransactions.add(set);
+        Set<Integer> set = new HashSet<Integer>();
+        for (String item : transaction) {
+            set.add(Integer.valueOf(item));
+        }
+        allTransactions.add(set);
 	}
 	
 	void countSKUFrequency() {
