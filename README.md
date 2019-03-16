@@ -22,6 +22,8 @@ Run the program as follows :
    ./gradlew run --args='src/test/resources/test.dat SIGMA MAX_ITEM_SETS_SIZE' --info
    
    for example : ./gradlew run --args='src/test/resources/test.dat 5 3' --info
+
+8. The JUnit test case can be found under the src/test folder.
    
    
 The application was tested using Java 11. With Java 8 streams ran into a performance issue related to dividing the buffered reader
