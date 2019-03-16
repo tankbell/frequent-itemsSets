@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.rk.datamining.FrequentItemSetsMiningTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-16T18:01:40" hostname="Gayathris-MacBook-Pro.local" time="2.065">
-  <properties/>
-  <testcase name="testAlgorithm" classname="com.rk.datamining.FrequentItemSetsMiningTest" time="2.065"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
