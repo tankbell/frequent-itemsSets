@@ -30,7 +30,6 @@ public class FrequentItemSetsMiningTest {
 		try {
 			resultOk = FileUtils.contentEquals(op, exp);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		assertEquals("Incorrect results", true, resultOk);
