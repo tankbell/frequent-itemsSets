@@ -157,9 +157,10 @@ public class FrequentItemSetsMining {
 						itemSet.addAll(Sets.union(x, y));
 						writeItemSetToFile(itemSet, o);
 						itemSet = null;
-						// This isn't really necessary.
-						// Just trying everything possible to
-						// keep the heap size in check. Did
+						// Invoking GC isn't recommended.
+						// Just experimenting everything possible to
+						// keep the heap size in check after writing the
+						// item sets to the file. Did
 						// help in the machine used for tests.
 						System.gc();
 					}
@@ -196,6 +197,7 @@ public class FrequentItemSetsMining {
 			// of the previous iteration
 			buildItemSets(itemSetsFrequencyTable.keySet(), k);
 			itemSetsFrequencyTable.clear();
+			// Invoking GC isn't recommended.
 			System.gc();
 			FileInputStream f;
 			boolean b = true;

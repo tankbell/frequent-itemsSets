@@ -5,18 +5,9 @@ package com.rk.datamining;
  */
 import org.junit.Test;
 
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Sets;
-
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-
-import java.util.List;
 import java.io.File;
 import java.io.IOException;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
 import org.apache.commons.io.FileUtils;
 
 public class FrequentItemSetsMiningTest {
