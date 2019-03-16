@@ -31,7 +31,7 @@ public class FrequentItemSetsMining {
 	static String input = "src/test/resources/test.dat";
 	static File output = new File("src/test/resources/output.txt");
 
-    // Find item sets of size in the range [1, ITEMSETS_SIZE]
+	// Find item sets of size in the range [1, ITEMSETS_SIZE]
 	// By default find item sets of size in the range [1,4]
 	static int ITEMSETS_SIZE = 4;
 
